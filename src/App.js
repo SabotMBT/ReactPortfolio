@@ -1,12 +1,7 @@
+import React from "react";
 import "./App.css";
-import BucketList from "./components/BucketList";
+import Container from "./components/Container";
 
-function App() {
-  return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
-  );
-}
+const App = () => <Container />;
 
 export default App;
