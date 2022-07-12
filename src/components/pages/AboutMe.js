@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div className="brassborder darkbg p-2 shadow">
       <h1>About Page</h1>
       <div className="d-inline-flex ">
         <div>

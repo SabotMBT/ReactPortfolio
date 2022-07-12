@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="brassborder darkbg p-2 shadow">
       <h1>Resume Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
