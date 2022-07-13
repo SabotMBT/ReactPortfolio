@@ -60,12 +60,12 @@ export default function Contact() {
             ></input>
           </div>
           <div className="input-group">
-            <span className="input-group-text inputbg2">Comments</span>
+            <span className="input-group-text inputbg2">Message</span>
             <textarea
               name="message"
               className="form-control inputbg"
               id="validationDefault05"
-              aria-label="Comments"
+              aria-label="Message"
               required
             ></textarea>
           </div>
