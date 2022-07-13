@@ -3,19 +3,16 @@ import React from "react";
 export default function Resume() {
   return (
     <div className="brassborder darkbg p-2 shadow">
-      <h1>Resume Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <h1>Resume</h1>
+      <a
+        className="w-100 alight-text-center"
+        href="https://www.dropbox.com/scl/fi/hg49aeizte1259dw3n69g/2022-07-13-Jd-Rogers-Resume2022.docx?dl=0&rlkey=u6pok1884d7aolmjh3kc22wmm"
+      >
+        Download Resume
+      </a>
+      <div className="d-flex justify-content-center">
+        <img src={process.env.PUBLIC_URL + "Resume2022.jpg"}></img>
+      </div>
     </div>
   );
 }
