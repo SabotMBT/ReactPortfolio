@@ -95,16 +95,20 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="cstmCard card m-5 p-2" style={{ width: "18rem" }}>
-          <img src={process.env.PUBLIC_URL + "Weather.png"} alt="..."></img>
+          <img
+            src={process.env.PUBLIC_URL + "Fan-Task-Tik.png"}
+            alt="..."
+          ></img>
           <div className="card-body">
-            <h5 className="card-title">Weather</h5>
+            <h5 className="card-title">Fan-Task-Tik</h5>
             <p className="card-text">
-              A simple Weather app that searches for cities by name, saves
-              previously searched cities, queries a weather API by city name,
-              and displays weather information for that city.
+              Still under development, this app will allow users to support
+              their favorite bands by taking certain actions or buying
+              merchandise. Each action or purchase will earn the user reward
+              points.
             </p>
             <a
-              href="https://sabotmbt.github.io/Mod6ChalWeather/"
+              href="https://radiant-chamber-41757.herokuapp.com/Band"
               className="btn btn-primary"
             >
               Deployed Site
